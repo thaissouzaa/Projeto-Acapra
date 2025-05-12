@@ -6,6 +6,12 @@
     <title>Formulário Acapra</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="">Inicio</a>
+            <a href="">Sobre</a>
+        </nav>
+    </header>
     
 </body>
 </html>
