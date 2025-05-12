@@ -8,10 +8,27 @@
 <body>
     <header>
         <nav>
-            <a href="">Inicio</a>
+            <img src="" alt="">
             <a href="">Sobre</a>
+            <a href="">Doaçoes</a>
+            <a href="">Entre em contato</a>
         </nav>
     </header>
     
+
+
+    <footer>
+        <div>
+            <img src="" alt="">
+            <nav>
+                <a href="https://www.instagram.com/acaprabrusquesc">Redes Sociais</a>
+                <a href="">Saiba Mais</a>
+                <a href="">Como adotar</a>
+                <a href="">Entre em contato</a>
+                <a href=""></a>
+
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
