@@ -8,8 +8,8 @@
 }
 
 header img{
-    width: 10%;
-    height: auto;
+    width: auto;
+    height: 150px;
 }
 
 header{
@@ -42,8 +42,8 @@ footer{
 }
 
 footer img{
-    width: 30%;
-    height: auto;
+    width: auto;
+    height: 300px;
 }
 
 .footer_links{
