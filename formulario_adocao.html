@@ -64,18 +64,49 @@
             <fieldset>
                 <legend>Dados para adoção</legend>
 
-                <p>Todos da sua residência concordam com a adoção?</p>
+                <label for="concordar">Todos da sua residência concordam com a adoção?</label>
+                <input type="text" id="concordar">
 
-                <label>
-                    <input type="radio" name="concordam" value="sim">Sim
-                </label>
+                <label for="animais">Você tem outros animais? Se sim quais?</label>
+                <input type="text" id="animais">
 
-                <label>
-                    <input type="radio" name="concordam" value="nao">Não
-                </label>
+                <p>São Castrados?</p>
+                <input type="radio" id="sim" name="castrados">
+                <label for="sim">Sim</label>
 
-                <label for="animal">Já tem algum outro animal? Se sim quantos?</label>
-                <input type="text" id="moradia">
+                <input type="radio" id="nao" name="castrados">
+                <label for="nao">Não</label>
+
+                <label type="adocao">Seus animais tem acesso a rua?</label>
+                <input type="text" id="adocao">
+
+                <label for="renda">Qual sua renda bruta mensal?</label>
+                <input type="text" id="renda">
+
+                <label for="condicao">Você tem condições físicas, mentais e financeiras de manter um animal? Uma boa ração? Visitas ao veterinário? Castração? Passeios?</label>
+                <input type="text" id="condicao">
+
+                <p>A castração e vacinação do animal é OBRIGATÓRIA, você concorda com isso? </p>
+                <input type="radio" id="sim" name="castracao">
+                <label for="sim">Sim</label>
+
+                <input type="radio" id="nao" name="castracao">
+                <label for="nao">Não</label>
+
+                <p>Existe uma taxa de adoção colaborativa de R$30,00. Você concorda em contribuir?</p>
+                <input type="radio" id="sim" name="taxa">
+                <label for="sim">Sim</label>
+
+                <input type="radio" id="nao" name="taxa">
+                <label for="nao">Não</label>
+
+                <p>Favor enviar os seguintes documentos   <br>
+                    * Foto do RG; * Foto do comprovante de renda; <br>
+                    * Foto do local onde o animal irá ficar (terreno, casa, canil...); <br>
+                    * Foto das TELAS;  <br>
+                    * Se tiver outros animais, foto dos mesmos e das suas carteiras de vacinação. </p>
+
+                    <input type="file" id="rg" name="rg" accept="image/*">
             </fieldset>
 
             <button type="button">Enviar</button>
