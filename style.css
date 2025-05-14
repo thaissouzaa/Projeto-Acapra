@@ -349,3 +349,62 @@ form button {
     margin: 30px;
     padding: 5px;
 }
+
+<<<<<<< HEAD
+.linha {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin: 30px auto;
+  max-width: 3000px;
+  gap: 20px;
+}
+
+.imagem img {
+  width: 523px;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card {
+  background-color: var(--cor-sete);
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 3000px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card-texto h2 {
+  font-size: 54px;
+  background-color: var(--cor_um);
+  padding: 5px 15px;
+  border-radius: 15px;
+  color: #7b3f00;
+  margin-top: 0;
+  text-align: center;
+   margin: 0 auto 15px auto;  
+  display: table;            
+}
+
+
+.card-texto p {
+  margin-top: 32px;
+  color: #5e2d00;
+  font-size: 45px;
+  line-height: 1.5;
+  text-align: center;
+=======
+.titulo_perguntas{
+    display: inline;
+    justify-content: center;
+    background-color: var(--cor_tres);
+    padding: 10px 20px; 
+    background-size: 10px 30px;
+    color: white;
+    font-family: cursive;
+ 
+>>>>>>> 4018a2f65f29efa1f8d2e332fd8188d9ae698b4e
+}
