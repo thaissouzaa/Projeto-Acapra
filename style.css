@@ -1,3 +1,6 @@
+
+/*TESTE BRANCH*/
+
 * {
     margin: 0;
 }
@@ -90,7 +93,6 @@ form {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    box-shadow: 1px 2px 9px black;
     border-radius: 15px;
     width: 30%;
     background-color: white;
@@ -107,7 +109,7 @@ form input {
 
 form label {
     font-family: georama;
-    font-size: 20px;
+    font-size: 20px
 }
 
 form h2 {
@@ -348,6 +350,18 @@ form button {
     text-align: left;
     margin: 30px;
     padding: 5px;
+}
+
+.titulo_perguntas{
+    display: inline;
+    align-items: center;
+    background-color: var(--cor_tres);
+    padding: 10px 20px; 
+    background-size: 10px 30px;
+    color: white;
+    font-family: cursive;
+    padding: 20px;
+ 
 }
 
 .linha {
