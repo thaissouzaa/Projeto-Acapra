@@ -347,3 +347,14 @@ color: var(--cor_quatro);
     margin: 30px;
     padding: 5px;
 }
+
+.titulo_perguntas{
+    display: inline;
+    justify-content: center;
+    background-color: var(--cor_tres);
+    padding: 10px 20px; 
+    background-size: 10px 30px;
+    color: white;
+    font-family: cursive;
+ 
+}
