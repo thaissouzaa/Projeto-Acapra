@@ -14,7 +14,7 @@
 
 header img {
     width: auto;
-    height: 150px;
+    height: 125px;
 }
 
 header {
@@ -24,12 +24,13 @@ header {
     background-color: var(--cor_um);
     height: 100%;
     margin: 0;
+    padding: 20px;
 }
 
 header nav a {
-    padding: 20px;
+    padding: 50px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 40px;
     color: var(--cor_tres);
     font-family: georama;
 }
@@ -39,8 +40,6 @@ header a:hover {
 }
 
 footer {
-    display: flex;
-    justify-content: flex-start;
     background-color: var(--cor_dois);
     margin: 30px 0px;
     height: 100%;
@@ -49,26 +48,28 @@ footer {
 
 footer img {
     width: auto;
-    height: 300px;
+    height: 250px;
 }
 
 .footer_links {
     display: flex;
     gap: 80px;
+    align-items: flex-start;
+    align-items: center;
 }
 
-footer nav {
-    display: flex;
-    flex-direction: column;
+.footer_links nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: flex-start;
-    gap: 15px;
-    margin-top: 20px;
+    gap: 10px 40px;
 }
 
 footer nav a {
     text-decoration: none;
     color: var(--cor_tres);
-    font-size: 15px;
+    font-size: 25px;
+    padding: 5px;
 }
 
 footer nav a:hover {
