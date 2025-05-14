@@ -406,3 +406,17 @@ form button {
         color: white;
         font-family: cursive;
     }
+
+    .imagem-abandono-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.imagem-abandono {
+  width: 100%;
+  max-width: 1500px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
