@@ -5,10 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Formulário Acapra</title>
 </head>
 
-<body>
+<body class="fundo_forms">
     <header>
         <img src="imagens/logo.png" alt="logo">
         <nav>
@@ -20,7 +23,8 @@
     </header>
 
     <main>
-        <div class="formulario">
+        <div class="container">
+            <form>
             <h1>Formulário de adoção</h1>
             <p>Nós da ACAPRA ficamos muito felizes no seu interesse em adotar um amigo!<br>
                 Para a sua segurança, e do seu novo Pet, precisamos que você responda o formulário abaixo!<br><br>
@@ -28,10 +32,7 @@
                 continuidade no processo de adoção. Por isso, responda corretamente e com calma! E não deixe <br>
                 nenhuma pergunta em branco.</p>
 
-
-            <form action="" method="post"></form>
-            <fieldset>
-                <legend>Dados pessoais</legend>
+                <h3>Dados pessoais</h3>
                 <label for="nome">Nome</label>
                 <input type="text" id="nome">
 
@@ -59,10 +60,8 @@
                 <label for="moradia">Você mora em casa ou apartamento? Próprio ou alugado?</label>
                 <input type="text" id="moradia">
 
-            </fieldset>
 
-            <fieldset>
-                <legend>Dados para adoção</legend>
+                <h3>Dados para adoção</h3>
 
                 <label for="concordar">Todos da sua residência concordam com a adoção?</label>
                 <input type="text" id="concordar">
@@ -107,7 +106,6 @@
                     * Se tiver outros animais, foto dos mesmos e das suas carteiras de vacinação. </p>
 
                     <input type="file" id="rg" name="rg" accept="image/*">
-            </fieldset>
 
             <button type="button">Enviar</button>
             </form>
