@@ -68,3 +68,46 @@ footer nav a{
 footer nav a:hover{
     color:#302e41;
 }
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid black;
+    width: 50%;
+    margin: 50px;
+    background-color: #FAF9F6;
+}
+
+.formulario input{
+    border-radius: 20px;
+    height: 20px;
+    border:groove 1px black; 
+    width: 40%;
+
+}
+
+fieldset{
+    width: 90%;
+}
+
+.formulario textarea{
+    border-radius: 15px;
+    width: 70%;
+    height: 40%;
+
+}
+
+.formulario button{
+    background-color: var(--cor_tres);
+    color: #FAF9F6;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 10px;
+    }
+
+.main{
+    background-image: url("imagens/fundo_pagina.png");
+}
+
