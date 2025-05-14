@@ -310,7 +310,7 @@ color: var(--cor_quatro);
 .titulodoar {
     font-size: 40px;
     color: var(--cor_tres);
-    text-align: left;
+    text-align: center;
     margin: 25px;
 }
 
