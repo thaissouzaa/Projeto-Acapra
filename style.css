@@ -145,6 +145,7 @@ form button {
     height: 360px;
     position: relative;
     overflow: hidden;
+    margin: 50px;
 }
 
 
@@ -196,11 +197,14 @@ form button {
 }
 
 
-.inicialparag1 {
+.paragrafo{
     text-align: center;
     font-size: 32px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 20px;
+    padding: 20px;
+    font-family: "Georama", sans-serif;;
+
+
 }
 
 
@@ -228,7 +232,7 @@ form button {
 
 .h1inicial {
     display: flex;
-
+    font-family: "Georama", sans-serif;
     margin-left: 30px;
     gap: 20px;
 }
@@ -236,11 +240,14 @@ form button {
 .grande {
     font-size: 40px;
     text-align: left;
+    font-weight: normal;
+    margin: 20px;
 }
 
 .pequeno {
     font-size: 32px;
     color: var(--cor_tres);
+    text-align: center;
 }
 
 
@@ -284,31 +291,30 @@ form button {
 }
 
 .maneiras {
-    text-align: left;
-    margin: 30px;
+    text-align: center;
+    margin-top: 50px;
     font-size: 48px;
-    color: var(--cor_tres);
+    color: var(--cor_seis);
+    font-family: "Georama", sans-serif;
+    font-weight: normal;
 }
 
-.maneirastexto {
-    font-size: 32px;
-    margin: 30px;
+
+
+.button {
+        background-color: var(--cor_tres);
+        color: #FAF9F6;
+        padding: 10px 40px;
+        border-radius: 10px;
+        margin: 10px;
+        box-shadow: 0 3px 4px #302e41;
+        align-items: center;
+    }
+
+.button a{
+    text-decoration: none;
 }
 
-.saibamaisbotao {
-    font-size: 40px;
-    display: inline-block;
-    background-color: var(--cor_dois);
-    border-radius: 15px;
-    border-width: 20px;
-    padding: 10px;
-    border-left: 10px;
-    border-right: 10px;
-    color: var(--cor_um);
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
-    margin: 20px;
-
-}
 
 .comoestao {
     font-size: 48px;
