@@ -214,9 +214,12 @@ form button {
 
 .denuncias {
     background-color: var(--cor-sete);
+    color: var(--cor_seis);
+    font-size: 25px;
+    padding: 20px;
     width: calc(100% - 4%);
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 30px; 
+    font-family: "Georama", sans-serif;
     text-align: center;
     border-radius: 50px;
 
@@ -349,7 +352,6 @@ form button {
     padding: 5px;
 }
 
-<<<<<<< HEAD
 .titulo_perguntas{
     display: inline;
     align-items: center;
@@ -361,7 +363,6 @@ form button {
     padding: 20px;
  
 }
-=======
 .linha {
     display: flex;
     justify-content: left;
@@ -432,4 +433,3 @@ form button {
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
->>>>>>> 605af06816f9f7228dbed87b19ecb90b7d8f3a70
