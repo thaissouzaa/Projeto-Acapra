@@ -461,3 +461,10 @@ tem que arrumar os nomes em baixo
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+
+.perfil-animal {
+  display: flex;
+  padding: 40px;
+  background-color: white;
+}
