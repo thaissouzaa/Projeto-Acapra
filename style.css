@@ -261,10 +261,6 @@ form button {
     color: var(--cor_tres);
 }
 
-.eventos {
-    width: calc(100%);
-}
-
 .adocaoinicial {
     text-align: center;
     background-color: var(--cor_quatro);
@@ -302,18 +298,18 @@ form button {
 
 
 .button {
-        background-color: var(--cor_tres);
-        color: #FAF9F6;
-        padding: 10px 40px;
-        border-radius: 10px;
-        margin: 10px;
-        box-shadow: 0 3px 4px #302e41;
-        align-items: center;
+         font-size: 40px;
+    display: inline-block;
+    background-color: var(--cor_dois);
+    border-radius: 15px;
+    border-width: 20px;
+    padding: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    color: var(--cor_um);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    margin: 20px;
     }
-
-.button a{
-    text-decoration: none;
-}
 
 
 .comoestao {
