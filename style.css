@@ -273,7 +273,7 @@ tem que arrumar os nomes em baixo .eventos {
     background-color: var(--cor_quatro);
     width: calc(100%);
     padding-left: 30px;
-}
+} 
 
 .h2inicial {
     font-size: 48px;
@@ -449,6 +449,8 @@ tem que arrumar os nomes em baixo .eventos {
     font-family: cursive;
 }
 
+/* IMAGEM ABANDONO  */
+
 .imagem-abandono-container {
     display: flex;
     justify-content: center;
@@ -463,6 +465,7 @@ tem que arrumar os nomes em baixo .eventos {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* PAGINA INDIVIDUAL ANIMAIS */
 
 .perfil-animal {
     display: flex;
@@ -525,6 +528,8 @@ tem que arrumar os nomes em baixo .eventos {
     align-content: center;
 }
 
+/* BOTAO QUERO ADOTAR */
+
 .botao-quero-adotar {
 background-color: #EFE6D5;
 padding: 20px 20px;
@@ -552,6 +557,7 @@ text-decoration: none;
     text-decoration: none;
 }
 
+/* FIV E FELV ALERTA */
 
 .felv-fiv-alerta {
     color: red;
