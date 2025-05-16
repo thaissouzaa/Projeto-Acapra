@@ -82,19 +82,21 @@ footer nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    margin: 20px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    align-items: flex-start;
     gap: 5px;
     border-radius: 15px;
     width: 30%;
     background-color: white;
     padding: 50px;
+
 }
 
 form input {
@@ -102,18 +104,34 @@ form input {
     height: 25px;
     border: groove 1px black;
     width: 40%;
+    margin-left: 100px;
 
 }
 
 form label {
-    font-family: georama;
-    font-size: 20px
+    font-family: "Georama", sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
 }
 
-form h2 {
-    font-family: georama;
+form h3 {
+    font-family: "Georama", sans-serif;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 20px;
+    align-self:flex-start;
+    margin: 15px;
+}
+
+form h2{
+    font-family: "Georama", sans-serif;
+    font-weight: normal;
+    align-self: center;
+    font-size: 30px;
+}
+
+form p, h1{
+    font-family: "Georama", sans-serif;
+    font-weight: normal;
 }
 
 fieldset {
@@ -124,6 +142,7 @@ form textarea {
     border-radius: 15px;
     width: 70%;
     height: 40%;
+    align-items: center;
 
 }
 
@@ -137,7 +156,11 @@ form button {
 }
 
 .fundo_forms {
-    background-image: url('imagens/fundo_pagina.png')
+    background-image: url('imagens/fundo_pagina.png');
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
 }
 
 .banner {
@@ -204,7 +227,10 @@ form button {
     margin: 20px;
     padding: 20px;
     font-family: "Georama", sans-serif;
+<<<<<<< HEAD
     ;
+=======
+>>>>>>> devThais
 
 
 }
@@ -371,6 +397,8 @@ tem que arrumar os nomes em baixo .eventos {
     color: var(--cor_tres);
     text-align: center;
     margin: 25px;
+    font-family: "Georama", sans-serif;
+    font-weight: normal;
 }
 
 .formasdoar {
@@ -378,14 +406,27 @@ tem que arrumar os nomes em baixo .eventos {
     text-align: left;
     margin: 30px;
     padding: 5px;
+    font-family: "Georama", sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+.container_titulo{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+>>>>>>> devThais
 .titulo_perguntas {
     display: inline;
-    align-items: center;
+    align-self: center;
     background-color: var(--cor_tres);
+<<<<<<< HEAD
     padding: 10px 20px;
     background-size: 10px 30px;
+=======
+>>>>>>> devThais
     color: white;
     font-family: cursive;
     padding: 20px;
@@ -440,6 +481,7 @@ tem que arrumar os nomes em baixo .eventos {
 }
 
 .titulo_perguntas {
+<<<<<<< HEAD
     display: inline;
     justify-content: center;
     background-color: var(--cor_tres);
@@ -448,6 +490,17 @@ tem que arrumar os nomes em baixo .eventos {
     color: white;
     font-family: cursive;
 }
+=======
+        display: inline;
+        justify-content: center;
+        background-color: var(--cor_tres);
+        padding: 10px 20px;
+        background-size: 10px 30px;
+        color: white;
+        font-family: cursive;
+        font-size: 40px;
+    }
+>>>>>>> devThais
 
 /* IMAGEM ABANDONO  */
 
@@ -465,6 +518,7 @@ tem que arrumar os nomes em baixo .eventos {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
 /* PAGINA INDIVIDUAL ANIMAIS */
 
 .perfil-animal {
@@ -564,4 +618,73 @@ text-decoration: none;
     font-size: 28px;
     text-align: center;
     margin-top: 170px;
+=======
+hr{
+    width: 100%;
+    margin: 10px;
+}
+
+
+.container_pergunta{
+    display: flex;
+    flex-direction: column;
+}
+
+.card_pergunta{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--cor_um);
+    opacity: 90%;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Georama", sans-serif;
+}
+
+.card_pergunta h3{
+    color: red;
+    font-weight: normal;
+
+}
+
+.card_duvida{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px;
+
+}
+
+.card_duvida label{
+    font-family: 'georama', sans-serif;
+    font-size: 30px;
+}
+
+.card_duvida input{
+    height: 30px;
+    align-self: center;
+    width: 500px;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+.container_doc {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: "georama", sans-serif;
+    margin: 15px;
+}
+
+.container_doc h1{
+    color: var(--cor_tres);
+    font-size: 40px;
+    margin: 20px;
+}
+
+.container_doc p,ul,li{
+    font-size: 25px;
+>>>>>>> devThais
 }
