@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+* a {
+text-decoration: none;
+}
+
 :root {
     --cor_um: #FAF9F6;
     --cor_dois: #c6adcd;
@@ -509,6 +513,7 @@ tem que arrumar os nomes em baixo .eventos {
     margin: 0 auto;
     text-align: left;
     line-height: 1.6;
+    display: flex;
 }
 
 .info-animal b {
@@ -521,4 +526,29 @@ tem que arrumar os nomes em baixo .eventos {
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
+}
+
+.botao-quero-adotar {
+background-color: #EFE6D5;
+padding: 20px 20px;
+font-size: 30px;
+font-family: 'Itim', cursive;
+color :#302e41;
+display: inline-block;
+margin-top: 200px;
+display: flex;
+justify-content: center;
+}
+
+.botao-quero-adotar:hover {
+    background-color: #302e41;
+    padding: 20px 20px;
+    font-size: 30px;
+    font-family: 'Itim', cursive;
+    color: #EFE6D5;
+    box-shadow: 4px 4px 0px #ccc;
+    display: inline-block;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
 }
