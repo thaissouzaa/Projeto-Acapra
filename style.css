@@ -552,3 +552,11 @@ justify-content: center;
     display: flex;
     justify-content: center;
 }
+
+
+.felv-fiv-alerta {
+    color: red;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 170px;
+}
