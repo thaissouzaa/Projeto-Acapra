@@ -472,7 +472,7 @@ tem que arrumar os nomes em baixo
 .h1paganimal {
 background-color: #EFE6D5;
 color:#302e41;
-font-size: 32px;
+font-size: 36px;
 font-weight: bold;
 text-align: center;
 padding: 10px 20px;
@@ -482,6 +482,34 @@ flex-direction: row;
 border-radius: 4px;
 box-shadow: 4px 4px 0px #ccc;
 justify-content: center;
+font-family: 'Itim', cursive;
+}
 
+.info-animal {
+    font-family: 'Geologica', sans-serif;
+}
 
+.info-animal h4 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.info-animal p {
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.info-animal b {
+color:#A0694A;
+font-size: 20px;
 }
