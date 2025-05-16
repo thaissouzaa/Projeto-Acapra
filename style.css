@@ -2,9 +2,6 @@
     margin: 0;
 }
 
-* a {
-text-decoration: none;
-}
 
 :root {
     --cor_um: #FAF9F6;
@@ -538,6 +535,7 @@ display: inline-block;
 margin-top: 200px;
 display: flex;
 justify-content: center;
+text-decoration: none;
 }
 
 .botao-quero-adotar:hover {
@@ -551,6 +549,7 @@ justify-content: center;
     margin-top: 200px;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 
