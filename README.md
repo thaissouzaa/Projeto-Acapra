@@ -1,4 +1,4 @@
-# Projeto-Acapra
+# Projeto ACAPRA - Site Institucional
 
 Este projeto foi desenvolvido como parte da Curricularização da Extensão do curso de Sistemas de Informação da UNIFEBE - Centro Universitário de Brusque, durante a 1ª fase da graduação.
 
