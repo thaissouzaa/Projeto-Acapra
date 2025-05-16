@@ -468,3 +468,20 @@ tem que arrumar os nomes em baixo
   padding: 40px;
   background-color: white;
 }
+
+.h1paganimal {
+background-color: #EFE6D5;
+color:#302e41;
+font-size: 32px;
+font-weight: bold;
+text-align: center;
+padding: 10px 20px;
+margin: 20px 10px;
+display: flex;
+flex-direction: row;
+border-radius: 4px;
+box-shadow: 4px 4px 0px #ccc;
+justify-content: center;
+
+
+}
