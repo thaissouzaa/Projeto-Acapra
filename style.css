@@ -34,7 +34,7 @@ header nav a {
     text-decoration: none;
     font-size: 40px;
     color: var(--cor_tres);
-    font-family: georama;
+    font-family: "Georama", sans-serif;
 }
 
 header a:hover {
@@ -72,6 +72,7 @@ footer nav a {
     color: var(--cor_tres);
     font-size: 25px;
     padding: 5px;
+    font-family: "Georama", sans-serif;
 }
 
 footer nav a:hover {
@@ -227,12 +228,6 @@ form button {
     margin: 20px;
     padding: 20px;
     font-family: "Georama", sans-serif;
-<<<<<<< HEAD
-    ;
-=======
->>>>>>> devThais
-
-
 }
 
 
@@ -287,13 +282,6 @@ form button {
     padding: 20px;
 }
 
-.card1 {}
-
-tem que arrumar os nomes em baixo .eventos {
-    padding-top: 50px;
-    padding-bottom: 70px;
-}
-
 .adocaoinicial {
     text-align: center;
     background-color: var(--cor_quatro);
@@ -341,6 +329,7 @@ tem que arrumar os nomes em baixo .eventos {
     text-align: left;
     padding: 30px;
     font-size: 32px;
+    font-family: "Georama", sans-serif;
 }
 
 
@@ -409,24 +398,12 @@ tem que arrumar os nomes em baixo .eventos {
     font-family: "Georama", sans-serif;
 }
 
-<<<<<<< HEAD
-=======
-.container_titulo{
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-
->>>>>>> devThais
 .titulo_perguntas {
     display: inline;
     align-self: center;
     background-color: var(--cor_tres);
-<<<<<<< HEAD
     padding: 10px 20px;
     background-size: 10px 30px;
-=======
->>>>>>> devThais
     color: white;
     font-family: cursive;
     padding: 20px;
@@ -481,7 +458,6 @@ tem que arrumar os nomes em baixo .eventos {
 }
 
 .titulo_perguntas {
-<<<<<<< HEAD
     display: inline;
     justify-content: center;
     background-color: var(--cor_tres);
@@ -490,17 +466,6 @@ tem que arrumar os nomes em baixo .eventos {
     color: white;
     font-family: cursive;
 }
-=======
-        display: inline;
-        justify-content: center;
-        background-color: var(--cor_tres);
-        padding: 10px 20px;
-        background-size: 10px 30px;
-        color: white;
-        font-family: cursive;
-        font-size: 40px;
-    }
->>>>>>> devThais
 
 /* IMAGEM ABANDONO  */
 
@@ -518,7 +483,6 @@ tem que arrumar os nomes em baixo .eventos {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-<<<<<<< HEAD
 /* PAGINA INDIVIDUAL ANIMAIS */
 
 .perfil-animal {
@@ -567,6 +531,7 @@ tem que arrumar os nomes em baixo .eventos {
     margin: 0 auto;
     text-align: left;
     line-height: 1.6;
+    font-family: "Georama", sans-serif;
 
 }
 
@@ -618,7 +583,7 @@ text-decoration: none;
     font-size: 28px;
     text-align: center;
     margin-top: 170px;
-=======
+}
 hr{
     width: 100%;
     margin: 10px;
@@ -686,5 +651,52 @@ hr{
 
 .container_doc p,ul,li{
     font-size: 25px;
->>>>>>> devThais
+}
+
+
+.container_eventos{
+    text-align: left;
+    background-color: #EEDCF3;
+}
+
+.titulo_eventos{
+    font-family: "Georama", sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    padding: 30px;
+    padding-left: 60px;
+}
+
+
+.card_eventos{
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    padding-bottom: 100px;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 15%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px;
+    font-family: "Georama", sans-serif;
+}
+
+.card h3{
+    font-weight: 300;
+    font-size: 35px;
+}
+.card p{
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.local{
+    padding: 20px;
+    font-size: 10px;
 }

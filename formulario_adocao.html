@@ -1,132 +1,156 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Formulário Acapra</title>
-</head>
+  </head>
 
-<body class="fundo_forms">
+  <body class="fundo_forms">
     <header>
-        <img src="imagens/logo.png" alt="">
-        <nav>
-            <a href="index.html"> Página Inicial</a>
-            <a href="sobre.html">Sobre</a>
-            <a href="doacoes.html">Faça doações</a>
-            <a href="entre_em_contato.html">Entre em contato</a>
-            <a href="Perguntas_frequentes.html"> FAQ</a>
-        </nav>
+      <img src="imagens/logo.png" alt="" />
+      <nav>
+        <a href="index.html"> Página Inicial</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="doacoes.html">Faça doações</a>
+        <a href="entre_em_contato.html">Entre em contato</a>
+        <a href="Perguntas_frequentes.html"> FAQ</a>
+      </nav>
     </header>
     <main>
-        <div class="container">
-            <form>
-            <h1>Formulário de adoção</h1>
-            <p>Nós da ACAPRA ficamos muito felizes no seu interesse em adotar um amigo!<br>
-                Para a sua segurança, e do seu novo Pet, precisamos que você responda o formulário abaixo!<br><br>
-                OBS: Formulários que não forem respondidos corretamente, serão DESCONSIDERADOS e não darão <br>
-                continuidade no processo de adoção. Por isso, responda corretamente e com calma! E não deixe <br>
-                nenhuma pergunta em branco.</p>
+      <div class="container">
+        <form>
+          <h1>Formulário de adoção</h1>
+          <p>
+            Nós da ACAPRA ficamos muito felizes no seu interesse em adotar um
+            amigo!<br />
+            Para a sua segurança, e do seu novo Pet, precisamos que você
+            responda o formulário abaixo!<br /><br />
+            OBS: Formulários que não forem respondidos corretamente, serão
+            DESCONSIDERADOS e não darão <br />
+            continuidade no processo de adoção. Por isso, responda corretamente
+            e com calma! E não deixe <br />
+            nenhuma pergunta em branco.
+          </p>
 
-                <hr>
+          <hr />
 
-                <h3>Dados pessoais</h3>
-                <label for="nome">Nome</label>
-                <input type="text" id="nome">
+          <h3>Dados pessoais</h3>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" />
 
-                <label for="telefone">Telefone para Contato</label>
-                <input type="text" id="telefone">
+          <label for="telefone">Telefone para Contato</label>
+          <input type="text" id="telefone" />
 
-                <label for="idade">idade</label>
-                <input type="text" id="idade">
+          <label for="idade">idade</label>
+          <input type="text" id="idade" />
 
-                <label for="endereco">Endereço</label>
-                <input type="text" id="endereco">
+          <label for="endereco">Endereço</label>
+          <input type="text" id="endereco" />
 
-                <label for="numero">Nº</label>
-                <input type="text" id="numero">
+          <label for="numero">Nº</label>
+          <input type="text" id="numero" />
 
-                <label for="cidade">cidade</label>
-                <input type="text" id="cidade">
+          <label for="cidade">cidade</label>
+          <input type="text" id="cidade" />
 
-                <label for="bairro">Bairro</label>
-                <input type="text" id="bairrp">
+          <label for="bairro">Bairro</label>
+          <input type="text" id="bairrp" />
 
-                <label for="cep">CEP</label>
-                <input type="text" id="cep">
+          <label for="cep">CEP</label>
+          <input type="text" id="cep" />
 
-                <label for="moradia">Você mora em casa ou apartamento? Próprio ou alugado?</label>
-                <input type="text" id="moradia">
+          <label for="moradia"
+            >Você mora em casa ou apartamento? Próprio ou alugado?</label
+          >
+          <input type="text" id="moradia" />
 
+          <h3>Dados para adoção</h3>
 
-                <h3>Dados para adoção</h3>
+          <label for="concordar"
+            >Todos da sua residência concordam com a adoção?</label
+          >
+          <input type="text" id="concordar" />
 
-                <label for="concordar">Todos da sua residência concordam com a adoção?</label>
-                <input type="text" id="concordar">
+          <label for="animais">Você tem outros animais? Se sim quais?</label>
+          <input type="text" id="animais" />
 
-                <label for="animais">Você tem outros animais? Se sim quais?</label>
-                <input type="text" id="animais">
+          <p>São Castrados?</p>
+          <input type="radio" id="sim" name="castrados" />
+          <label for="sim">Sim</label>
 
-                <p>São Castrados?</p>
-                <input type="radio" id="sim" name="castrados">
-                <label for="sim">Sim</label>
+          <input type="radio" id="nao" name="castrados" />
+          <label for="nao">Não</label>
 
-                <input type="radio" id="nao" name="castrados">
-                <label for="nao">Não</label>
+          <label type="adocao">Seus animais tem acesso a rua?</label>
+          <input type="text" id="adocao" />
 
-                <label type="adocao">Seus animais tem acesso a rua?</label>
-                <input type="text" id="adocao">
+          <label for="renda">Qual sua renda bruta mensal?</label>
+          <input type="text" id="renda" />
 
-                <label for="renda">Qual sua renda bruta mensal?</label>
-                <input type="text" id="renda">
+          <label for="condicao"
+            >Você tem condições físicas, mentais e financeiras de manter um
+            animal? Uma boa ração? Visitas ao veterinário? Castração?
+            Passeios?</label
+          >
+          <input type="text" id="condicao" />
 
-                <label for="condicao">Você tem condições físicas, mentais e financeiras de manter um animal? Uma boa ração? Visitas ao veterinário? Castração? Passeios?</label>
-                <input type="text" id="condicao">
+          <p>
+            A castração e vacinação do animal é OBRIGATÓRIA, você concorda com
+            isso?
+          </p>
+          <input type="radio" id="sim" name="castracao" />
+          <label for="sim">Sim</label>
 
-                <p>A castração e vacinação do animal é OBRIGATÓRIA, você concorda com isso?</p>
-                <input type="radio" id="sim" name="castracao">
-                <label for="sim">Sim</label>
+          <input type="radio" id="nao" name="castracao" />
+          <label for="nao">Não</label>
 
-                <input type="radio" id="nao" name="castracao">
-                <label for="nao">Não</label>
+          <p>
+            Existe uma taxa de adoção colaborativa de R$30,00. Você concorda em
+            contribuir?
+          </p>
+          <input type="radio" id="sim" name="taxa" />
+          <label for="sim">Sim</label>
 
-                <p>Existe uma taxa de adoção colaborativa de R$30,00. Você concorda em contribuir?</p>
-                <input type="radio" id="sim" name="taxa">
-                <label for="sim">Sim</label>
+          <input type="radio" id="nao" name="taxa" />
+          <label for="nao">Não</label>
 
-                <input type="radio" id="nao" name="taxa">
-                <label for="nao">Não</label>
+          <p>
+            Favor enviar os seguintes documentos <br />
+            * Foto do RG;* Foto do comprovante de renda;<br />
+            * Foto do local onde o animal irá ficar (terreno, casa,
+            canil...);<br />
+            * Foto das TELAS; <br />
+            * Se tiver outros animais, foto dos mesmos e das suas carteiras de
+            vacinação. 
+          </p>
 
-                <p>Favor enviar os seguintes documentos <br>
-                    * Foto do RG;* Foto do comprovante de renda;<br>
-                    * Foto do local onde o animal irá ficar (terreno, casa, canil...);<br>
-                    * Foto das TELAS; <br>
-                    * Se tiver outros animais, foto dos mesmos e das suas carteiras de vacinação. </p>
+          <input type="file" id="rg" name="rg" accept="image/*" />
 
-                    <input type="file" id="rg" name="rg" accept="image/*">
-
-            <button type="button">Enviar</button>
-            </form>
-        </div>
+          <button type="button">Enviar</button>
+        </form>
+      </div>
     </main>
 
     <footer>
-        <div class="footer_links">
-            <img src="imagens/logo.png" alt="logo">
-            <nav>
-                <a href="https://www.instagram.com/acaprabrusquesc">Redes Sociais</a>
-                <a href="index.html">Saiba Mais</a>
-                <a href="documentos.html">Como adotar</a>
-                <a href="entre_em_contato.html">Entre em contato</a>
-                <a href="formulario_voluntario.html">Seja um voluntário</a>
-                <a href="Perguntas_frequentes.html">FAQ</a>
-            </nav>
-        </div>
+      <div class="footer_links">
+        <img src="imagens/logo.png" alt="logo" />
+        <nav>
+          <a href="https://www.instagram.com/acaprabrusquesc">Redes Sociais</a>
+          <a href="index.html">Saiba Mais</a>
+          <a href="documentos.html">Como adotar</a>
+          <a href="entre_em_contato.html">Entre em contato</a>
+          <a href="formulario_voluntario.html">Seja um voluntário</a>
+          <a href="Perguntas_frequentes.html">FAQ</a>
+        </nav>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
