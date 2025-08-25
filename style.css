@@ -446,6 +446,7 @@ form button {
     text-align: center;
     margin: 0 auto 15px auto;
     display: table;
+    width: 890px;
 }
 
 
@@ -455,6 +456,7 @@ form button {
     font-size: 45px;
     line-height: 1.5;
     text-align: center;
+    width: 890px;
 }
 
 .container_titulo{
