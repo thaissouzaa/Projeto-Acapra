@@ -721,6 +721,13 @@ hr{
     padding: 20px;
 }
 
+.adote h1{
+    background-color: #FAF9F6;
+    color: #302e41;
+    border-radius: 25px;
+    padding: 30px;
+}
+
 .adote h4{
     background-color: #FAF9F6;
     color:#555086;
