@@ -749,3 +749,51 @@ hr{
     gap: 70px;
     padding: 20px;
 }
+
+.adocao-conjunta-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    
+}
+
+.adocaoconjuntaalerta{
+    display: inline-block;
+    background-color: #D57B3D;
+    padding: 10px;
+    color: #FAF9F6;
+    text-align: center;
+    font-size: 25px;
+    margin: 25px;
+}
+
+/* BOTAO QUERO ADOTAR */
+
+.botao-quero-adotar2 {
+background-color: #EFE6D5;
+padding: 20px 20px;
+font-size: 30px;
+font-family: 'Itim', cursive;
+color :#302e41;
+display: inline-block;
+display: flex;
+justify-content: center;
+text-decoration: none;
+margin-top: 580px;
+}
+
+.botao-quero-adotar2:hover {
+    background-color: #302e41;
+    padding: 20px 20px;
+    font-size: 30px;
+    font-family: 'Itim', cursive;
+    color: #EFE6D5;
+    box-shadow: 4px 4px 0px #ccc;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 580px;
+}
+
