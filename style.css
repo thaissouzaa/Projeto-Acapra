@@ -705,3 +705,47 @@ hr{
     padding: 20px;
     font-size: 10px;
 }
+
+.adote{
+    background-color:#c6adcd;
+    border-radius: 25px;
+    padding: 40px;
+    margin: 40px;
+}
+
+.adotesection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.adote h1{
+    background-color: #FAF9F6;
+    color:#555086;
+    border-radius: 25px;
+    padding: 20px 60px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 60px;
+}
+
+.adote h4{
+    background-color: #FAF9F6;
+    color:#555086;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 2;
+
+}
+ 
+.rowadote{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    padding: 20px;
+}
