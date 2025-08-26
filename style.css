@@ -11,6 +11,8 @@
     --cor_cinco: #A0694A;
     --cor_seis: #4F2411;
     --cor-sete: #EFE6D5;
+    --fonte: "Georama", sans-serif;
+    --fonte2: 'Itim', cursive;
 
 }
 
@@ -793,4 +795,150 @@ margin-top: 580px;
     justify-content: center;
     text-decoration: none;
     margin-top: 580px;
+}
+
+/* relatos de adoção */
+
+.main-relatos{
+    background-image: url('imagens/fundo_pagina.png');
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+}
+
+.container-relatos{
+    background-color: white;
+    margin: 300px;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px #cccc;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: var(--fonte);
+}
+
+.titulo-relatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.titulo-relatos h1{
+    color: var(--cor_tres);
+    font-size: 48px;
+}
+
+.titulo-relatos img{
+    width: auto;
+    height: 125px;
+    margin-left: 20px;
+}
+
+.introducao-relatos p{
+    font-size: 20px;
+    text-align: center;
+    margin: 0 100px 20px 100px;
+    font-style: justify;
+}
+
+.formulario-relatos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.formulario-relatos form{
+    display: flex;
+    justify-content: center;
+}
+
+#foto{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#historia{
+    width: 70%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.formulario-relatos h2{
+    font-size: 25px;
+    background-color: var(--cor_tres);
+    font-family: var(--fonte2);
+    color: white;
+    padding: 10px 80px;
+    border-radius: 30px;
+}
+
+.separador-relatos{
+    display: flex;
+    justify-content: center;
+}
+
+.separador-relatos hr{
+    width: 10%;
+}
+
+.card-relatos{
+    display: flex;
+    justify-content: center;
+    margin: 30px 25px 30px 25px;
+}
+
+.texto-relatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 60%;
+    text-align: justify;
+}
+
+.texto-relatos h3{
+    font-size: 32px;
+    color: var(--cor_tres);
+    margin-bottom: 10px;
+    font-family: var(--fonte2);
+    background-color: #FCF7EE;
+    padding: 0% 40%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.texto-relatos p{
+    margin: 10px;
+    font-size: 20px;
+    background-color: #FFE1E1;
+    padding: 2% 10%;
+    border-radius: 53px;
+    font-family: var(--fonte2);
+}
+
+.imagem-relatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-relatos img{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+.texto-relatos .cor2{
+    background-color: #E0F7FA;
+}
+
+.texto-relatos .cor3{
+    background-color: #D9D9D9;
 }
