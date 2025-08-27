@@ -42,22 +42,25 @@
       <div class="formulario-relatos">
         <h2>Deixe seu relato</h2>
         <form>
-          <label for="nome">Nome do pet</label><br />
-          <input type="text" id="nome" name="nome" /><br /><br />
+          <div class="card-formulario-relatos">
+            <div class="form-esquerda">
+              <label for="nome">Nome do pet</label><br />
+              <input type="text" id="nome" name="nome" /><br /><br />
 
-          <label for="tipo">Qual é o seu pet?</label><br />
-          <input type="text" id="tipo" name="tipo" /><br /><br />
+              <label for="tipo">Qual é o seu pet?</label><br />
+              <input type="text" id="tipo" name="tipo" /><br /><br />
 
-          <label for="quando">Quando foi adotado?</label><br />
-          <input type="text" id="quando" name="quando" /><br /><br />
+              <label for="quando">Quando foi adotado?</label><br />
+              <input type="text" id="quando" name="quando" /><br /><br />
+            </div>
+            <div class="form-direita">
+              <label for="historia">Conte sua história</label><br />
+              <textarea id="historia" name="historia" rows="5" cols="40"></textarea><br /><br />
 
-          <label for="historia">Conte sua história</label><br />
-          <textarea id="historia" name="historia" rows="5" cols="40"></textarea><br /><br />
-
-          <label for="foto">Adicionar foto:</label>
-          <input type="file" id="foto" name="foto" /><br /><br />
-
-          <button type="submit">Enviar</button>
+              <label for="foto">Adicionar foto:</label>
+              <input type="file" id="foto" name="foto" /><br /><br />
+            </div>
+          </div>
       </div>
       <hr class="separador-relatos" />
       </form>
