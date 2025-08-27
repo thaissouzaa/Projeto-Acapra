@@ -1,5 +1,6 @@
 * {
     margin: 0;
+
 }
 
 
@@ -42,6 +43,7 @@ header nav a {
 header a:hover {
     color: var(--cor_dois);
 }
+
 
 footer {
     background-color: var(--cor_dois);
@@ -314,6 +316,7 @@ form button {
     margin-bottom: 20px;
     margin-left: 30px;
     margin-right: 30px;
+    text-decoration: none;
 }
 
 .h4inicial {
@@ -349,6 +352,7 @@ form button {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
     margin: 20px;
     font-family: "Georama" sans-serif;
+    text-decoration: none;
 }
 
 
@@ -381,6 +385,7 @@ form button {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
     margin: 20px;
     font-family: "Georama" sans-serif;
+    text-decoration: none;
 }
 
 .titulodoar {
@@ -519,6 +524,7 @@ form button {
 
 .info-animal {
     font-family: 'Geologica', sans-serif;
+
 }
 
 .info-animal h4 {
@@ -758,6 +764,7 @@ hr{
     flex-direction: column;
     justify-content: space-around;
     background-color: white;
+    width: 100%;
     
 }
 
