@@ -693,13 +693,21 @@ hr{
     font-family: "Georama", sans-serif;
 }
 
+.card-texto h2{
+    font-size: 48px;
+    font-family: "Georama", sans-serif;
+    margin-top: 35px;
+
+}
+
 .card h3{
     font-weight: 300;
     font-size: 35px;
 }
 .card p{
     font-weight: 200;
-    font-size: 25px;
+    font-size: 32px;
+    padding: 25px;
 }
 
 .local{
