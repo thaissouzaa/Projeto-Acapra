@@ -670,6 +670,22 @@ hr{
     border: solid 1px black;
 }
 
+.card_duvida button {
+    background-color: var(--cor_tres);
+    color: #FAF9F6;
+    padding: 12px 50px;    
+    border-radius: 10px;
+    border: none;           
+    cursor: pointer;       
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3); 
+    transition: transform 0.2s, box-shadow 0.2s; 
+}
+
+.card_duvida button:hover {
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 8px rgba(0,0,0,0.4);
+}
+
 .container_doc {
     display: flex;
     justify-content: center;
