@@ -98,6 +98,11 @@ footer nav a:hover {
     align-items: center;
 }
 
+.formularios-div {
+  max-width: 400px;
+  padding: 12px;
+}
+
 form {
     display: flex;
     flex-direction: column;
