@@ -721,6 +721,8 @@ hr{
 .container_eventos{
     text-align: left;
     background-color: #EEDCF3;
+    padding: 20px;
+    margin: 60px 0px 60px 0px;
 }
 
 .titulo_eventos{
@@ -736,6 +738,9 @@ hr{
     display: flex;
     justify-content: center;
     margin: 60px;
+    align-items: center;
+    align-content: center;
+
 }
 
 
@@ -1033,4 +1038,35 @@ margin-top: 580px;
     justify-content: space-around;
     padding:35px;
     gap: 35px;
+}
+
+.cardindex {
+    width: 248px;
+    height: 217px;
+    left: 190px;
+    top: 2515px;
+    margin: 10px;
+    font-family: "Georama", sans-serif;
+    background-color: var(--cor_um);
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 21px;
+    text-align: center;
+
+}
+
+.cardindex h3{
+    font-weight: 300;
+    font-size: 35px;
+}
+.cardindex p{
+    font-weight: 200;
+    font-size: 32px;
+}
+
+.alinhamento{
+    display: flex;
+    align-items: center;
 }
