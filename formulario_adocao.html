@@ -14,6 +14,7 @@
 </head>
 
 <body class="fundo_forms">
+
   <header>
     <img src="imagens/logo.png" alt="logo" />
     <nav>
@@ -24,59 +25,92 @@
       <a href="Perguntas_frequentes.html"> FAQ</a>
     </nav>
   </header>
+
+  
   <main>
-    <div class="container">
+
+      <div class="container">
       <form>
-        <h1>Formulário de adoção</h1>
-        <p>
-          Nós da ACAPRA ficamos muito felizes no seu interesse em adotar um
-          amigo!<br />
-          Para a sua segurança, e do seu novo Pet, precisamos que você
-          responda o formulário abaixo!<br /><br />
-          OBS: Formulários que não forem respondidos corretamente, serão
-          DESCONSIDERADOS e não darão <br />
-          continuidade no processo de adoção. Por isso, responda corretamente
-          e com calma! E não deixe <br />
-          nenhuma pergunta em branco.
-        </p>
+
+        <div class="divform">
+          <h1>Formulário de adoção</h1>
+          <p>
+            Nós da ACAPRA ficamos muito felizes no seu interesse <br> em adotar um
+            amigo!<br />
+            Para a sua segurança, e do seu novo Pet, precisamos <br> que você
+            responda o formulário abaixo!<br /><br />
+            OBS: Formulários que não forem respondidos <br> corretamente, serão
+            DESCONSIDERADOS e não darão <br />
+            continuidade no processo de adoção. Por isso, <br> responda corretamente
+            e com calma! E não deixe <br />
+            nenhuma pergunta em branco.
+          </p>
+
+        </div>
 
         <hr />
 
-        <h3>Dados pessoais</h3>
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" />
+        <h3 class="h3form">DADOS PESSOAIS</h3>
 
-        <label for="telefone">Telefone para Contato</label>
-        <input type="text" id="telefone" />
+        <div class="divform">
+          <label for="nome">Nome Completo</label>
+          <input type="text" id="nome" />
+        </div>
 
-        <label for="idade">Idade</label>
-        <input type="text" id="idade" />
+        <div class="divform">
+          <label for="telefone">Telefone para Contato</label>
+          <input type="text" id="telefone" />
+        </div>
 
-        <label for="endereco">Endereço</label>
-        <input type="text" id="endereco" />
+        <div class="divform">
+          <label for="idade">Idade</label>
+          <input type="text" id="idade" />
+        </div>
 
-        <label for="numero">Nº</label>
-        <input type="text" id="numero" />
+        <div class="divform">
+          <label for="endereco">Endereço</label>
+          <input type="text" id="endereco" />
+        </div>
 
-        <label for="cidade">Cidade</label>
-        <input type="text" id="cidade" />
+        <div class="divform">
+          <label for="numero">Nº</label>
+          <input type="text" id="numero" />
+        </div>
 
-        <label for="bairro">Bairro</label>
-        <input type="text" id="bairrp" />
+        <div class="divform">
+          <label for="cidade">Cidade</label>
+          <input type="text" id="cidade" />
+        </div>
 
-        <label for="cep">CEP</label>
-        <input type="text" id="cep" />
+        <div class="divform">
+          <label for="bairro">Bairro</label>
+          <input type="text" id="bairrp" />
+        </div>
 
-        <label for="moradia">Você mora em casa ou apartamento? Próprio ou alugado?</label>
-        <input type="text" id="moradia" />
+        <div class="divform">
+          <label for="cep">CEP</label>
+          <input type="text" id="cep" />
+        </div>
 
-        <h3>Dados para adoção</h3>
+        <div class="divform">
+          <label for="moradia">Você mora em casa ou apartamento? <br> Próprio ou alugado?</label>
+          <input type="text" id="moradia" />
 
-        <label for="concordar">Todos da sua residência concordam com a adoção?</label>
-        <input type="text" id="concordar" />
+        </div>
 
-        <label for="animais">Você tem outros animais? Se sim quais?</label>
-        <input type="text" id="animais" />
+        <hr />
+
+        <h3 class="h3form">DADOS PARA ADOÇÃO</h3>
+
+        <div class="divform">
+          <label for="concordar">Todos da sua residência concordam com a adoção?</label>
+          <input type="text" id="concordar" />
+        </div>
+
+        <div class="divform">
+          <label for="animais">Você tem outros animais? Se sim quais?</label>
+          <input type="text" id="animais" />
+        </div>
 
         <p>São Castrados?</p>
         <div class="opcoes">
@@ -90,18 +124,37 @@
           </label>
         </div>
 
-        <label type="adocao">Seus animais tem acesso a rua?</label>
-        <input type="text" id="adocao" />
+        <div class="divform">
+          <label type="adocao">Seus animais tem acesso a rua?</label>
+          <input type="text" id="adocao" />
+        </div>
 
-        <label for="renda">Qual sua renda bruta mensal?</label>
-        <input type="text" id="renda" />
+        <div class="divform">
+          <label for="renda">Qual sua renda bruta mensal?</label>
+          <input type="text" id="renda" />
+        </div>
 
-        <label for="condicao">Você tem condições físicas, mentais e financeiras de manter um
-          animal? Uma boa ração? Visitas ao veterinário? Castração?
-          Passeios?</label>
-        <input type="text" id="condicao" />
+        <div class="divform">
+          <label for="condicao">Você tem condições físicas, mentais e <br> financeiras de manter um
+            animal? Uma boa ração? <br> Visitas ao veterinário? Castração?
+            Passeios?</label>
+        </div>
+        <div class="opcoes">
+          <label>
+            <input type="radio" name="condicao" value="sim">
+            Sim
+          </label>
 
-        <p>A castração e vacinação do animal é OBRIGATÓRIA, você concorda com isso?</p>
+          <label>
+            <input type="radio" name="condicao" value="nao">
+            Não
+          </label>
+
+        </div>
+
+        <div class="divform">
+          <p>A castração e vacinação do animal é OBRIGATÓRIA, <br> você concorda com isso?</p>
+        </div>
         <div class="opcoes">
           <label>
             <input type="radio" name="castracao" value="sim">
@@ -113,7 +166,9 @@
           </label>
         </div>
 
-        <p>Existe uma taxa de adoção colaborativa de R$30,00. Você concorda em contribuir?</p>
+        <div class="divform">
+          <p>Existe uma taxa de adoção colaborativa de R$30,00. <br> Você concorda em contribuir?</p>
+        </div>
         <div class="opcoes">
           <label>
             <input type="radio" name="taxa" value="sim">
@@ -125,21 +180,25 @@
           </label>
         </div>
 
-        <p>
-          Favor enviar os seguintes documentos <br />
-          * Foto do RG;* Foto do comprovante de renda;<br />
-          * Foto do local onde o animal irá ficar (terreno, casa,
-          canil...);<br />
-          * Foto das TELAS; <br />
-          * Se tiver outros animais, foto dos mesmos e das suas carteiras de
-          vacinação. 
-        </p>
+        <div class="divform">
+          <p>
+            Favor enviar os seguintes documentos <br />
+            * Foto do RG;* Foto do comprovante de renda;<br />
+            * Foto do local onde o animal irá ficar <br> (terreno, casa,
+            canil...);<br />
+            * Foto das TELAS; <br />
+            * Se tiver outros animais, foto dos mesmos e <br> das suas carteiras de
+            vacinação.
+          </p>
+        </div>
 
         <input type="file" id="rg" name="rg" accept="image/*" />
 
         <button type="button">Enviar</button>
+
       </form>
     </div>
+
   </main>
 
   <footer>
